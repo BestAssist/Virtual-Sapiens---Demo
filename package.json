@@ -1,0 +1,24 @@
+{
+  "name": "virtual-sapiens-demo",
+  "version": "1.0.0",
+  "description": "FastAPI Text Summarization API with TypeScript client",
+  "main": "summaryClient.ts",
+  "scripts": {
+    "test:client": "ts-node test_client.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "fastapi",
+    "typescript",
+    "api-client"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
